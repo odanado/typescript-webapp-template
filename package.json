@@ -1,0 +1,8 @@
+{
+  "name": "typescript-webapp-template",
+  "version": "1.0.0",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ]
+}
