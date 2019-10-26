@@ -1,0 +1,32 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "@nestjs/common": "^6.8.4",
+    "@nestjs/core": "^6.8.4",
+    "@nestjs/platform-express": "^6.8.4",
+    "@nestjs/swagger": "^3.1.0",
+    "reflect-metadata": "^0.1.13",
+    "rxjs": "^6.5.3",
+    "swagger-ui-express": "^4.1.2"
+  },
+  "devDependencies": {
+    "@nestjs/cli": "^6.11.0",
+    "@nestjs/schematics": "^6.7.0",
+    "@nestjs/testing": "^6.8.4",
+    "@types/jest": "^24.0.20",
+    "@types/node": "^12.11.7",
+    "@typescript-eslint/eslint-plugin": "^2.5.0",
+    "@typescript-eslint/parser": "^2.5.0",
+    "eslint": "^6.6.0",
+    "eslint-config-prettier": "^6.4.0",
+    "eslint-plugin-prettier": "^3.1.1",
+    "prettier": "^1.18.2",
+    "typescript": "^3.6.4"
+  },
+  "scripts": {
+    "dev": "nest start --watch",
+    "lint": "eslint --ext .js,.ts --ignore-path ./.gitignore ."
+  }
+}
