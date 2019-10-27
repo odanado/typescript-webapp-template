@@ -1,4 +1,4 @@
-import { Configuration } from '@nuxt/types'
+import { Configuration } from '@nuxt/types';
 
 const config: Configuration = {
   mode: 'universal',
@@ -55,6 +55,6 @@ const config: Configuration = {
       eslint: true
     }
   }
-}
+};
 
-export default config
+export default config;
