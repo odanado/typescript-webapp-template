@@ -29,6 +29,7 @@
     "typescript": "^3.6.4"
   },
   "scripts": {
+    "build": "nest build",
     "dev": "nest start --watch",
     "lint": "eslint --ext .js,.ts --ignore-path ./.gitignore ."
   }
